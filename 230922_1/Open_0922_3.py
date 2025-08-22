@@ -2,8 +2,8 @@ import cv2
 from Common.utils import print_matInfo
 
 title1, title2 = 'gray2gray', 'gray2color'
-gray2gray = cv2.imread("read_gray.jpg", cv2.IMREAD_GRAYSCALE)
-gray2color = cv2.imread("read_gray.jpg", cv2.IMREAD_COLOR)
+gray2gray = cv2.imread("C:/Users/USER/Desktop/read_gray.jpg", cv2.IMREAD_GRAYSCALE)
+gray2color = cv2.imread("C:/Users/USER/Desktop/read_gray.jpg", cv2.IMREAD_COLOR)
 
 ## 영상파일 읽기 여부 조사
 if gray2gray is None or gray2color is None:

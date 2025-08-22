@@ -16,3 +16,4 @@ def print_matInfo(name, image):
     ## depth, channel 출력
     print("%12s: depth(%s), channels(%s) -> mat_type(%sC%d)"
           % (name, image.dtype, nchannel, mat_type, nchannel))
+

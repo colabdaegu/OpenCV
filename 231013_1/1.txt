@@ -1,0 +1,5 @@
+
+def time_check(func):
+    start_time = time.perf_counter()
+    elapsed = (time.perf_counter() - start_time) * 1000
+    return 
